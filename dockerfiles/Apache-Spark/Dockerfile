@@ -3,7 +3,7 @@ FROM ubuntu:18.04
 
 # Labels of image
 LABEL image=apache-spark
-LABEL maintainer="nikolas.mpompetsis@gmail.com"
+LABEL maintainer "Nikolas Bompetsis <nikolas.mpompetsis@gmail.com>"
 
 # Spark and Hadoop versions
 ENV SPARK_VERSION=3.1.1
